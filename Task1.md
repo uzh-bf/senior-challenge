@@ -62,7 +62,7 @@ The application you develop should be based on the requirements defined in this 
     - The job details page at `/jobs/[id]` showcases the details (including `description`) of each job posting.
     - The job details are fetched directly from the corresponding provided API endpoint `/api/jobs/[id]` (e.g., using a library like `useSWR` or `React Query`).
     - Loading and error states are handled appropriately to ensure a nice user experience.
-    - Hint: The corresponding API endpoint (e.g., `/api/jobs/[id]`) always returns the first job in the database. Ensure that it returns the one that was requested with the `[id]` parameter.
+    - Hint: The corresponding API endpoint (e.g., `/api/jobs/[id]`) currently always returns the first job in the database (-> bug). Ensure that it returns the one that was requested with the `[id]` parameter.
 
 - [ ] \#3 **Routing (required)**
 
