@@ -6,5 +6,5 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Job>
 ) {
-  res.status(200).json(JOBS[0])
+  res.status(200).json(JOBS[1])
 }
