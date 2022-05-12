@@ -22,7 +22,7 @@ After installing the above requirements, change into the project directory (`app
 - https://nextjs.org/docs/getting-started
 - https://tailwindcss.com/
 - https://swr.vercel.app/
-- https://react-query.tanstack.com/
+  https://www.typescriptlang.org/
 
 ## Requirements, Constraints, and Ideas
 
@@ -31,17 +31,18 @@ Your application must satisfy the following basic constraints:
 - :exclamation: It must be based on the Next.js/React framework we provide and use TailwindCSS for styling.
 - :exclamation: It must get all of the data from the network endpoints using an appropriate data fetching approach.
 - :exclamation: It must satisfy the acceptance criteria of required user stories, plus the criteria of one of the bonus stories. Any further work beside these criteria is optional.
-- :bulb: Regarding styling of the application, you are free to do whatever you want or think is most appropriate. Thinking about responsiveness or user experience from the beginning is a welcome addition.
+- :bulb: Regarding styling of the application, you are free to do whatever you want or think is most appropriate (except that you should use TailwindCSS). Thinking about responsiveness or user experience from the beginning is a welcome addition.
 - :bulb: You may use any additional libraries of your choosing (e.g., for interactivity).
+- :bulb: You should try to use Typescript if possible, but you do not need to type every single statement.
 
 ## User Stories
 
-The application you develop should be based on the requirements defined in this file. It must implement all required user stories as well as two of the additional stories.
+The application you develop should be based on the requirements defined in this file. It must implement all required user stories as well as one of the additional bonus stories.
 
 - [ ] \#0 **Preparations (required)**
 
   1. Install all of the requirements as described above
-  2. Clone the repository to your own machine
+  2. Fork the repository and clone it to your own machine
   3. Run `npm install` and start development mode with `npm run dev`
 
 - [ ] \#1 **Job Overview (required)**

@@ -1,4 +1,4 @@
-export const JOBS: any = {
+export const JOBS: Record<number, Job> = {
   1: {
     id: 1,
     title: 'Senior Web Developer (100%)',
